@@ -1,0 +1,14 @@
+utilities\WebDriverProvider.class
+principal\ExcelMonstruoTests.class
+utilities\FileManager.class
+automation\NavegationTest.class
+listeners\SuiteListeners.class
+utilities\BaseTest.class
+listeners\AllureListeners.class
+principal\ExampleTests.class
+data\CustomData.class
+listeners\TestListeners.class
+principal\AssertsTests.class
+principal\SoftAssertTests.class
+listeners\AllureListeners$1.class
+utilities\Logs.class

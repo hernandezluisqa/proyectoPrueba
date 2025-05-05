@@ -1,0 +1,344 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>19/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 03 10:59:45 CLT 2025</td>
+</tr>
+<tr><td>Total time:</td><td>30 seconds (30831 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>regression </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='automation.NavegationTest.failToScreenshotTest()'><b>failToScreenshotTest</b><br>Test class: automation.NavegationTest</td>
+<td><div><pre>java.lang.AssertionError: expected [url] but found [https://the-internet.herokuapp.com/]
+	at automation.NavegationTest.failToScreenshotTest(NavegationTest.java:57)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 36 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2092912524", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2092912524'><pre>java.lang.AssertionError: expected [url] but found [https://the-internet.herokuapp.com/]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at automation.NavegationTest.failToScreenshotTest(NavegationTest.java:57)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+</pre></div></td>
+<td>1</td>
+<td>automation.NavegationTest@392a04e7</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: ARNAIZ,
+    edad: 5,
+    peso: 2,27,
+    genero: HEMBRA,
+    tipo: FUEGO,
+    nivel: 22
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: GALLO,
+    edad: 5,
+    peso: 8,37,
+    genero: MACHO,
+    tipo: PLANTA,
+    nivel: 81
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='automation.NavegationTest.ejercicio1Test()'><b>ejercicio1Test</b><br>Test class: automation.NavegationTest</td>
+<td></td>
+<td>0</td>
+<td>automation.NavegationTest@392a04e7</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: LUCENA,
+    edad: 3,
+    peso: 8,57,
+    genero: MACHO,
+    tipo: PLANTA,
+    nivel: 36
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.segundoTest()'><b>segundoTest</b><br>Test class: principal.ExcelMonstruoTests</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: SALCEDO,
+    edad: 2,
+    peso: 6,87,
+    genero: MACHO,
+    tipo: PLANTA,
+    nivel: 4
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: UGARTE,
+    edad: 1,
+    peso: 9,62,
+    genero: HEMBRA,
+    tipo: PLANTA,
+    nivel: 99
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.tercerTest()'><b>tercerTest</b><br>Test class: principal.ExcelMonstruoTests</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: COROMINAS,
+    edad: 1,
+    peso: 2,31,
+    genero: HEMBRA,
+    tipo: AGUA,
+    nivel: 74
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: CABEZAS,
+    edad: 2,
+    peso: 2,05,
+    genero: HEMBRA,
+    tipo: FUEGO,
+    nivel: 5
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: REYES,
+    edad: 3,
+    peso: 5,87,
+    genero: MACHO,
+    tipo: FUEGO,
+    nivel: 33
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: VAQUERO,
+    edad: 4,
+    peso: 3,36,
+    genero: MACHO,
+    tipo: AGUA,
+    nivel: 15
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: VICENS,
+    edad: 5,
+    peso: 8,99,
+    genero: MACHO,
+    tipo: AGUA,
+    nivel: 75
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='automation.NavegationTest.ejercicio2Test()'><b>ejercicio2Test</b><br>Test class: automation.NavegationTest</td>
+<td></td>
+<td>3</td>
+<td>automation.NavegationTest@392a04e7</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: TOLOSA,
+    edad: 5,
+    peso: 1,97,
+    genero: HEMBRA,
+    tipo: AIRE,
+    nivel: 90
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: ARIZA,
+    edad: 5,
+    peso: 7,03,
+    genero: MACHO,
+    tipo: ELECTRICO,
+    nivel: 63
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: DE VERDU,
+    edad: 1,
+    peso: 8,99,
+    genero: HEMBRA,
+    tipo: FUEGO,
+    nivel: 48
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.cuartoTest()'><b>cuartoTest</b><br>Test class: principal.ExcelMonstruoTests<br>Parameters: {
+    nombre: SEVILLANO,
+    edad: 5,
+    peso: 8,22,
+    genero: HEMBRA,
+    tipo: ELECTRICO,
+    nivel: 28
+}
+</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+<tr>
+<td title='principal.ExcelMonstruoTests.primerTest()'><b>primerTest</b><br>Test class: principal.ExcelMonstruoTests</td>
+<td></td>
+<td>0</td>
+<td>principal.ExcelMonstruoTests@af78c87</td></tr>
+</table><p>
+</body>
+</html>

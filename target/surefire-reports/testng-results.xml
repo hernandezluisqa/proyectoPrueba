@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="5" total="25" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-03T10:59:45 CLT" name="Surefire suite" finished-at="2025-05-03T11:00:15 CLT" duration-ms="30831">
+    <groups>
+      <group name="regression">
+        <method signature="NavegationTest.ejercicio1Test()[pri:0, instance:automation.NavegationTest@392a04e7]" name="ejercicio1Test" class="automation.NavegationTest"/>
+        <method signature="NavegationTest.ejercicio2Test()[pri:0, instance:automation.NavegationTest@392a04e7]" name="ejercicio2Test" class="automation.NavegationTest"/>
+        <method signature="NavegationTest.failToScreenshotTest()[pri:0, instance:automation.NavegationTest@392a04e7]" name="failToScreenshotTest" class="automation.NavegationTest"/>
+        <method signature="ExcelMonstruoTests.cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" name="cuartoTest" class="principal.ExcelMonstruoTests"/>
+        <method signature="ExcelMonstruoTests.primerTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" name="primerTest" class="principal.ExcelMonstruoTests"/>
+        <method signature="ExcelMonstruoTests.segundoTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" name="segundoTest" class="principal.ExcelMonstruoTests"/>
+        <method signature="ExcelMonstruoTests.tercerTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" name="tercerTest" class="principal.ExcelMonstruoTests"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="NavegationTest.ejercicio1Test()[pri:0, instance:automation.NavegationTest@392a04e7]" name="ejercicio1Test" class="automation.NavegationTest"/>
+        <method signature="ExcelMonstruoTests.primerTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" name="primerTest" class="principal.ExcelMonstruoTests"/>
+        <method signature="ExcelMonstruoTests.segundoTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" name="segundoTest" class="principal.ExcelMonstruoTests"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2025-05-03T10:59:45 CLT" name="Surefire test" finished-at="2025-05-03T11:00:15 CLT" duration-ms="30831">
+      <class name="automation.NavegationTest">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:45 CLT" name="masterSetUp" finished-at="2025-05-03T10:59:47 CLT" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="ejercicio1Test()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:47 CLT" name="ejercicio1Test" finished-at="2025-05-03T10:59:48 CLT" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ejercicio1Test -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:48 CLT" name="masterTearDown" finished-at="2025-05-03T10:59:48 CLT" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:48 CLT" name="masterSetUp" finished-at="2025-05-03T10:59:49 CLT" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="ejercicio2Test()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:49 CLT" name="ejercicio2Test" finished-at="2025-05-03T10:59:52 CLT" duration-ms="3370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ejercicio2Test -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:52 CLT" name="masterTearDown" finished-at="2025-05-03T10:59:52 CLT" duration-ms="162" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:52 CLT" name="masterSetUp" finished-at="2025-05-03T10:59:53 CLT" duration-ms="994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method signature="failToScreenshotTest()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:53 CLT" name="failToScreenshotTest" finished-at="2025-05-03T10:59:55 CLT" duration-ms="1686" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [url] but found [https://the-internet.herokuapp.com/]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [url] but found [https://the-internet.herokuapp.com/]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at automation.NavegationTest.failToScreenshotTest(NavegationTest.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failToScreenshotTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.NavegationTest@392a04e7]" started-at="2025-05-03T10:59:56 CLT" name="masterTearDown" finished-at="2025-05-03T10:59:56 CLT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+      </class> <!-- automation.NavegationTest -->
+      <class name="principal.ExcelMonstruoTests">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:57 CLT" name="masterSetUp" finished-at="2025-05-03T10:59:57 CLT" duration-ms="957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:57 CLT" name="setUp" finished-at="2025-05-03T10:59:58 CLT" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:58 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T10:59:58 CLT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: TOLOSA,
+    edad: 5,
+    peso: 1,97,
+    genero: HEMBRA,
+    tipo: AIRE,
+    nivel: 90
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:58 CLT" name="masterTearDown" finished-at="2025-05-03T10:59:58 CLT" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:58 CLT" name="masterSetUp" finished-at="2025-05-03T10:59:59 CLT" duration-ms="978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:59 CLT" name="setUp" finished-at="2025-05-03T10:59:59 CLT" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:59 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T10:59:59 CLT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: COROMINAS,
+    edad: 1,
+    peso: 2,31,
+    genero: HEMBRA,
+    tipo: AGUA,
+    nivel: 74
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:59 CLT" name="masterTearDown" finished-at="2025-05-03T10:59:59 CLT" duration-ms="100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T10:59:59 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:00 CLT" duration-ms="937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:00 CLT" name="setUp" finished-at="2025-05-03T11:00:00 CLT" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:00 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:00 CLT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: ARNAIZ,
+    edad: 5,
+    peso: 2,27,
+    genero: HEMBRA,
+    tipo: FUEGO,
+    nivel: 22
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:00 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:00 CLT" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:00 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:01 CLT" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:01 CLT" name="setUp" finished-at="2025-05-03T11:00:01 CLT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:01 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:01 CLT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: CABEZAS,
+    edad: 2,
+    peso: 2,05,
+    genero: HEMBRA,
+    tipo: FUEGO,
+    nivel: 5
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:01 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:01 CLT" duration-ms="104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:01 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:02 CLT" duration-ms="943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:02 CLT" name="setUp" finished-at="2025-05-03T11:00:02 CLT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:02 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:02 CLT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: SALCEDO,
+    edad: 2,
+    peso: 6,87,
+    genero: MACHO,
+    tipo: PLANTA,
+    nivel: 4
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:02 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:02 CLT" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:02 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:03 CLT" duration-ms="956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:03 CLT" name="setUp" finished-at="2025-05-03T11:00:03 CLT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:03 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:03 CLT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: VAQUERO,
+    edad: 4,
+    peso: 3,36,
+    genero: MACHO,
+    tipo: AGUA,
+    nivel: 15
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:03 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:03 CLT" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:03 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:04 CLT" duration-ms="1004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:04 CLT" name="setUp" finished-at="2025-05-03T11:00:04 CLT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:04 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:04 CLT" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: REYES,
+    edad: 3,
+    peso: 5,87,
+    genero: MACHO,
+    tipo: FUEGO,
+    nivel: 33
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:04 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:04 CLT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:04 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:05 CLT" duration-ms="985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:05 CLT" name="setUp" finished-at="2025-05-03T11:00:05 CLT" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:05 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:05 CLT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: GALLO,
+    edad: 5,
+    peso: 8,37,
+    genero: MACHO,
+    tipo: PLANTA,
+    nivel: 81
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:05 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:06 CLT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:06 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:06 CLT" duration-ms="945" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:06 CLT" name="setUp" finished-at="2025-05-03T11:00:06 CLT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:06 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:06 CLT" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: VICENS,
+    edad: 5,
+    peso: 8,99,
+    genero: MACHO,
+    tipo: AGUA,
+    nivel: 75
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:06 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:07 CLT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:07 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:08 CLT" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:08 CLT" name="setUp" finished-at="2025-05-03T11:00:08 CLT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:08 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:08 CLT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: SEVILLANO,
+    edad: 5,
+    peso: 8,22,
+    genero: HEMBRA,
+    tipo: ELECTRICO,
+    nivel: 28
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:08 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:08 CLT" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:08 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:09 CLT" duration-ms="954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:09 CLT" name="setUp" finished-at="2025-05-03T11:00:09 CLT" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:09 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:09 CLT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: ARIZA,
+    edad: 5,
+    peso: 7,03,
+    genero: MACHO,
+    tipo: ELECTRICO,
+    nivel: 63
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:09 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:09 CLT" duration-ms="147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:09 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:10 CLT" duration-ms="924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:10 CLT" name="setUp" finished-at="2025-05-03T11:00:10 CLT" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:10 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:10 CLT" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: DE VERDU,
+    edad: 1,
+    peso: 8,99,
+    genero: HEMBRA,
+    tipo: FUEGO,
+    nivel: 48
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:10 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:10 CLT" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:10 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:11 CLT" duration-ms="1052" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:11 CLT" name="setUp" finished-at="2025-05-03T11:00:11 CLT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:11 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:11 CLT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: UGARTE,
+    edad: 1,
+    peso: 9,62,
+    genero: HEMBRA,
+    tipo: PLANTA,
+    nivel: 99
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:11 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:11 CLT" duration-ms="119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:11 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:12 CLT" duration-ms="922" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:12 CLT" name="setUp" finished-at="2025-05-03T11:00:12 CLT" duration-ms="24" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="cuartoTest(modelos.Monstruo)[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:12 CLT" name="cuartoTest" data-provider="Data Monstruo" finished-at="2025-05-03T11:00:12 CLT" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{
+    nombre: LUCENA,
+    edad: 3,
+    peso: 8,57,
+    genero: MACHO,
+    tipo: PLANTA,
+    nivel: 36
+}
+]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:12 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:12 CLT" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:12 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:13 CLT" duration-ms="908" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:13 CLT" name="setUp" finished-at="2025-05-03T11:00:13 CLT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="primerTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:13 CLT" name="primerTest" finished-at="2025-05-03T11:00:13 CLT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primerTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:13 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:13 CLT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:13 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:14 CLT" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:14 CLT" name="setUp" finished-at="2025-05-03T11:00:14 CLT" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="segundoTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:14 CLT" name="segundoTest" finished-at="2025-05-03T11:00:14 CLT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segundoTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:14 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:14 CLT" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:14 CLT" name="masterSetUp" finished-at="2025-05-03T11:00:15 CLT" duration-ms="936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:15 CLT" name="setUp" finished-at="2025-05-03T11:00:15 CLT" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="tercerTest()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:15 CLT" name="tercerTest" finished-at="2025-05-03T11:00:15 CLT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tercerTest -->
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:principal.ExcelMonstruoTests@af78c87]" started-at="2025-05-03T11:00:15 CLT" name="masterTearDown" finished-at="2025-05-03T11:00:15 CLT" duration-ms="156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- masterTearDown -->
+      </class> <!-- principal.ExcelMonstruoTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
