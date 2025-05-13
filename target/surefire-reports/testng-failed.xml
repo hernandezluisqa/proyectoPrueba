@@ -8,13 +8,14 @@
       </run>
     </groups>
     <classes>
-      <class name="automation.NavegationTest">
+      <class name="automation.ProductsTests">
         <methods>
-          <include name="failToScreenshotTest"/>
+          <include name="productDetailTest"/>
           <include name="masterTearDown"/>
+          <include name="backToProductsTest"/>
           <include name="masterSetUp"/>
         </methods>
-      </class> <!-- automation.NavegationTest -->
+      </class> <!-- automation.ProductsTests -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

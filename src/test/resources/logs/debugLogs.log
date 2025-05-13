@@ -1,10 +1,118 @@
-20:39:21.555 INFO  AUTOMATION - Suite Iniciada: Default Suite
-20:39:21.629 DEBUG AUTOMATION - Borrando evidencia anterior
-20:39:21.791 DEBUG AUTOMATION - Inicializando el Driver
-20:39:25.781 DEBUG AUTOMATION - Borrando Cookies
-20:39:25.799 DEBUG AUTOMATION - Asignando driver al webdriver provider
-20:39:25.984 INFO  AUTOMATION - Comenzando el test: keys2Test
-20:39:39.142 DEBUG AUTOMATION - Before test stop de allure
-20:39:39.158 INFO  AUTOMATION - Test Exitoso: keys2Test
-20:39:39.161 INFO  AUTOMATION - Matando el padre
-20:39:40.551 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:48:07.429 INFO  AUTOMATION - Suite Iniciada: Surefire suite
+20:48:07.468 DEBUG AUTOMATION - Borrando evidencia anterior
+20:48:07.577 DEBUG AUTOMATION - Inicializando el Driver
+20:48:11.040 DEBUG AUTOMATION - Borrando Cookies
+20:48:11.044 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:11.212 INFO  AUTOMATION - Navegando a la url
+20:48:12.237 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:12.282 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:12.286 INFO  AUTOMATION - Escribiendo el username
+20:48:12.373 INFO  AUTOMATION - Escribiendo el password
+20:48:12.400 INFO  AUTOMATION - Haciendo click en boton login
+20:48:12.712 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:48:12.751 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+20:48:12.993 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+20:48:13.032 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina MenuBurger
+20:48:13.033 INFO  AUTOMATION - Esperando que el boton sea clickeable por la animacion
+20:48:13.069 INFO  AUTOMATION - Comenzando el test: aboutButtomTest
+20:48:13.154 DEBUG AUTOMATION - Before test stop de allure
+20:48:13.162 INFO  AUTOMATION - Test Exitoso: aboutButtomTest
+20:48:13.163 INFO  AUTOMATION - Matando el padre
+20:48:14.133 DEBUG AUTOMATION - Inicializando el Driver
+20:48:16.949 DEBUG AUTOMATION - Borrando Cookies
+20:48:16.955 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:16.960 INFO  AUTOMATION - Navegando a la url
+20:48:17.909 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:17.943 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:17.944 INFO  AUTOMATION - Escribiendo el username
+20:48:18.027 INFO  AUTOMATION - Escribiendo el password
+20:48:18.073 INFO  AUTOMATION - Haciendo click en boton login
+20:48:18.351 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:48:18.373 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+20:48:18.600 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+20:48:18.640 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina MenuBurger
+20:48:18.641 INFO  AUTOMATION - Esperando que el boton sea clickeable por la animacion
+20:48:18.675 INFO  AUTOMATION - Comenzando el test: logoutTest
+20:48:18.908 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:18.924 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:18.925 INFO  AUTOMATION - Verificando la pagina de login
+20:48:18.982 DEBUG AUTOMATION - Before test stop de allure
+20:48:18.984 INFO  AUTOMATION - Test Exitoso: logoutTest
+20:48:18.985 INFO  AUTOMATION - Matando el padre
+20:48:19.891 DEBUG AUTOMATION - Inicializando el Driver
+20:48:22.742 DEBUG AUTOMATION - Borrando Cookies
+20:48:22.747 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:22.750 INFO  AUTOMATION - Navegando a la url
+20:48:23.647 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:23.674 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:23.674 INFO  AUTOMATION - Escribiendo el username
+20:48:23.768 INFO  AUTOMATION - Escribiendo el password
+20:48:23.802 INFO  AUTOMATION - Haciendo click en boton login
+20:48:24.075 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:48:24.101 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+20:48:24.161 INFO  AUTOMATION - Comenzando el test: verifyingSocialMediaLinksTest
+20:48:24.177 INFO  AUTOMATION - Verificando los links de las redes sociales
+20:48:24.226 DEBUG AUTOMATION - Before test stop de allure
+20:48:24.228 INFO  AUTOMATION - Test Exitoso: verifyingSocialMediaLinksTest
+20:48:24.229 INFO  AUTOMATION - Matando el padre
+20:48:25.114 DEBUG AUTOMATION - Inicializando el Driver
+20:48:27.926 DEBUG AUTOMATION - Borrando Cookies
+20:48:27.930 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:27.936 INFO  AUTOMATION - Navegando a la url
+20:48:29.464 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:29.492 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:29.494 INFO  AUTOMATION - Comenzando el test: lockedUserTest
+20:48:29.496 INFO  AUTOMATION - Escribiendo el username
+20:48:29.576 INFO  AUTOMATION - Escribiendo el password
+20:48:29.614 INFO  AUTOMATION - Haciendo click en boton login
+20:48:29.873 DEBUG AUTOMATION - Before test stop de allure
+20:48:29.874 INFO  AUTOMATION - Test Exitoso: lockedUserTest
+20:48:29.875 INFO  AUTOMATION - Matando el padre
+20:48:30.781 DEBUG AUTOMATION - Inicializando el Driver
+20:48:33.637 DEBUG AUTOMATION - Borrando Cookies
+20:48:33.642 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:33.645 INFO  AUTOMATION - Navegando a la url
+20:48:34.610 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:34.639 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:34.640 INFO  AUTOMATION - Comenzando el test: verifyLoginPageTest
+20:48:34.643 INFO  AUTOMATION - Verificando la pagina de login
+20:48:34.694 DEBUG AUTOMATION - Before test stop de allure
+20:48:34.696 INFO  AUTOMATION - Test Exitoso: verifyLoginPageTest
+20:48:34.697 INFO  AUTOMATION - Matando el padre
+20:48:35.829 DEBUG AUTOMATION - Inicializando el Driver
+20:48:38.762 DEBUG AUTOMATION - Borrando Cookies
+20:48:38.767 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:38.769 INFO  AUTOMATION - Comenzando el test: backToProductsTest
+20:48:38.796 DEBUG AUTOMATION - Before test stop de allure
+20:48:38.996 INFO  AUTOMATION - Test Fallido: backToProductsTest
+20:48:38.996 DEBUG AUTOMATION - Tomando screenshot
+20:48:39.039 DEBUG AUTOMATION - Tomando el page source de la pagina
+20:48:39.040 DEBUG AUTOMATION - Creando los directorios padres sios es que no existen
+20:48:39.047 INFO  AUTOMATION - Matando el padre
+20:48:40.049 DEBUG AUTOMATION - Inicializando el Driver
+20:48:42.956 DEBUG AUTOMATION - Borrando Cookies
+20:48:42.963 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:42.965 INFO  AUTOMATION - Comenzando el test: productDetailTest
+20:48:43.004 DEBUG AUTOMATION - Before test stop de allure
+20:48:43.062 INFO  AUTOMATION - Test Fallido: productDetailTest
+20:48:43.063 DEBUG AUTOMATION - Tomando screenshot
+20:48:43.106 DEBUG AUTOMATION - Tomando el page source de la pagina
+20:48:43.107 DEBUG AUTOMATION - Creando los directorios padres sios es que no existen
+20:48:43.107 INFO  AUTOMATION - Matando el padre
+20:48:44.148 DEBUG AUTOMATION - Inicializando el Driver
+20:48:47.003 DEBUG AUTOMATION - Borrando Cookies
+20:48:47.009 DEBUG AUTOMATION - Asignando driver al webdriver provider
+20:48:47.012 INFO  AUTOMATION - Navegando a la url
+20:48:48.096 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:48:48.142 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:48:48.142 INFO  AUTOMATION - Escribiendo el username
+20:48:48.228 INFO  AUTOMATION - Escribiendo el password
+20:48:48.265 INFO  AUTOMATION - Haciendo click en boton login
+20:48:48.566 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:48:48.606 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+20:48:48.611 INFO  AUTOMATION - Comenzando el test: loginSuccessTest
+20:48:48.616 INFO  AUTOMATION - Verificando la pagina de Shopping Page
+20:48:48.660 DEBUG AUTOMATION - Before test stop de allure
+20:48:48.661 INFO  AUTOMATION - Test Exitoso: loginSuccessTest
+20:48:48.662 INFO  AUTOMATION - Matando el padre
+20:48:49.644 INFO  AUTOMATION - Suite finalizada: Surefire suite

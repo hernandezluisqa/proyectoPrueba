@@ -1,5 +1,14 @@
-20:38:32.393 INFO  AUTOMATION - Suite Iniciada: Default Suite
-20:38:37.267 INFO  AUTOMATION - Comenzando el test: pestanasTest
-20:38:39.949 INFO  AUTOMATION - Test Exitoso: pestanasTest
-20:38:39.952 INFO  AUTOMATION - Matando el padre
-20:38:41.113 INFO  AUTOMATION - Suite finalizada: Default Suite
+20:46:49.171 INFO  AUTOMATION - Suite Iniciada: Default Suite
+20:46:54.536 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+20:46:54.578 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+20:46:54.584 INFO  AUTOMATION - Escribiendo el username
+20:46:54.676 INFO  AUTOMATION - Escribiendo el password
+20:46:54.707 INFO  AUTOMATION - Haciendo click en boton login
+20:46:55.008 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+20:46:55.047 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+20:46:55.302 INFO  AUTOMATION - Esperando que la pagina ProductPage cargue
+20:46:55.316 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ProductPage
+20:46:55.323 INFO  AUTOMATION - Comenzando el test: productDetailTest
+20:46:55.460 INFO  AUTOMATION - Test Exitoso: productDetailTest
+20:46:55.462 INFO  AUTOMATION - Matando el padre
+20:46:56.456 INFO  AUTOMATION - Suite finalizada: Default Suite
