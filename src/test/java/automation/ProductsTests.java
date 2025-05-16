@@ -24,12 +24,12 @@ public class ProductsTests extends BaseTest {
         productPage.waitPageToLoad();
     }
 
-    @Test (groups = {regression})
+    @Test (groups = {})
     public void productDetailTest() {
         productPage.verifyPage();
     }
 
-    @Test (groups = {regression, smoke})
+    @Test (groups = {smoke})
     public void backToProductsTest() {
         productPage.clickBackToProducts();
         shoppingPage.waitPageToLoad();

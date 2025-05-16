@@ -1,14 +1,73 @@
-20:46:49.171 INFO  AUTOMATION - Suite Iniciada: Default Suite
-20:46:54.536 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
-20:46:54.578 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
-20:46:54.584 INFO  AUTOMATION - Escribiendo el username
-20:46:54.676 INFO  AUTOMATION - Escribiendo el password
-20:46:54.707 INFO  AUTOMATION - Haciendo click en boton login
-20:46:55.008 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
-20:46:55.047 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
-20:46:55.302 INFO  AUTOMATION - Esperando que la pagina ProductPage cargue
-20:46:55.316 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ProductPage
-20:46:55.323 INFO  AUTOMATION - Comenzando el test: productDetailTest
-20:46:55.460 INFO  AUTOMATION - Test Exitoso: productDetailTest
-20:46:55.462 INFO  AUTOMATION - Matando el padre
-20:46:56.456 INFO  AUTOMATION - Suite finalizada: Default Suite
+23:03:56.475 INFO  AUTOMATION - Suite Iniciada: Surefire suite
+23:04:00.871 INFO  AUTOMATION - Navegando a la url
+23:04:02.118 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:02.168 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:02.173 INFO  AUTOMATION - Escribiendo el username
+23:04:02.321 INFO  AUTOMATION - Escribiendo el password
+23:04:02.365 INFO  AUTOMATION - Haciendo click en boton login
+23:04:02.663 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+23:04:02.706 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+23:04:02.931 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+23:04:02.971 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina MenuBurger
+23:04:02.972 INFO  AUTOMATION - Esperando que el boton sea clickeable por la animacion
+23:04:03.005 INFO  AUTOMATION - Comenzando el test: aboutButtomTest
+23:04:03.104 INFO  AUTOMATION - Test Exitoso: aboutButtomTest
+23:04:03.106 INFO  AUTOMATION - Matando el padre
+23:04:07.473 INFO  AUTOMATION - Navegando a la url
+23:04:08.459 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:08.501 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:08.502 INFO  AUTOMATION - Escribiendo el username
+23:04:08.732 INFO  AUTOMATION - Escribiendo el password
+23:04:08.811 INFO  AUTOMATION - Haciendo click en boton login
+23:04:09.106 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+23:04:09.127 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+23:04:09.346 INFO  AUTOMATION - Esperando que la pagina MenuBurger cargue
+23:04:09.361 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina MenuBurger
+23:04:09.362 INFO  AUTOMATION - Esperando que el boton sea clickeable por la animacion
+23:04:09.383 INFO  AUTOMATION - Comenzando el test: logoutTest
+23:04:09.619 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:09.640 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:09.641 INFO  AUTOMATION - Verificando la pagina de login
+23:04:09.723 INFO  AUTOMATION - Test Exitoso: logoutTest
+23:04:09.725 INFO  AUTOMATION - Matando el padre
+23:04:13.950 INFO  AUTOMATION - Navegando a la url
+23:04:14.938 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:14.974 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:14.975 INFO  AUTOMATION - Escribiendo el username
+23:04:15.061 INFO  AUTOMATION - Escribiendo el password
+23:04:15.098 INFO  AUTOMATION - Haciendo click en boton login
+23:04:15.401 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+23:04:15.414 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+23:04:15.469 INFO  AUTOMATION - Comenzando el test: verifyingSocialMediaLinksTest
+23:04:15.482 INFO  AUTOMATION - Verificando los links de las redes sociales
+23:04:15.541 INFO  AUTOMATION - Test Exitoso: verifyingSocialMediaLinksTest
+23:04:15.542 INFO  AUTOMATION - Matando el padre
+23:04:20.239 INFO  AUTOMATION - Navegando a la url
+23:04:21.140 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:21.180 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:21.182 INFO  AUTOMATION - Comenzando el test: lockedUserTest
+23:04:21.185 INFO  AUTOMATION - Escribiendo el username
+23:04:21.285 INFO  AUTOMATION - Escribiendo el password
+23:04:21.314 INFO  AUTOMATION - Haciendo click en boton login
+23:04:21.609 INFO  AUTOMATION - Test Exitoso: lockedUserTest
+23:04:21.610 INFO  AUTOMATION - Matando el padre
+23:04:27.665 INFO  AUTOMATION - Navegando a la url
+23:04:29.079 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:29.116 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:29.125 INFO  AUTOMATION - Comenzando el test: verifyLoginPageTest
+23:04:29.132 INFO  AUTOMATION - Verificando la pagina de login
+23:04:29.219 INFO  AUTOMATION - Test Exitoso: verifyLoginPageTest
+23:04:29.222 INFO  AUTOMATION - Matando el padre
+23:04:35.607 INFO  AUTOMATION - Navegando a la url
+23:04:37.052 INFO  AUTOMATION - Esperando que la pagina LoginPage cargue
+23:04:37.114 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina LoginPage
+23:04:37.116 INFO  AUTOMATION - Escribiendo el username
+23:04:37.299 INFO  AUTOMATION - Escribiendo el password
+23:04:37.346 INFO  AUTOMATION - Haciendo click en boton login
+23:04:37.655 INFO  AUTOMATION - Esperando que la pagina ShoppingPage cargue
+23:04:37.694 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina ShoppingPage
+23:04:37.700 INFO  AUTOMATION - Comenzando el test: loginSuccessTest
+23:04:37.706 INFO  AUTOMATION - Verificando la pagina de Shopping Page
+23:04:37.801 INFO  AUTOMATION - Test Exitoso: loginSuccessTest
+23:04:37.803 INFO  AUTOMATION - Matando el padre
+23:04:38.987 INFO  AUTOMATION - Suite finalizada: Surefire suite

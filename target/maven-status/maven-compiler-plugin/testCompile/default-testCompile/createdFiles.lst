@@ -10,10 +10,12 @@ listeners\TestListeners.class
 pages\FooterPage.class
 utilities\Logs.class
 utilities\WebDriverProvider.class
+pages\HomePage.class
 pages\MenuBurger.class
 automation\FooterTests.class
 pages\BarPages.class
 listeners\AllureListeners.class
+automation\EntelBarTests.class
 automation\BarTests.class
 automation\shoppingTests.class
 pages\ShoppingPage.class

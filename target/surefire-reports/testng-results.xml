@@ -1,295 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="4" total="10" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-05-12T20:48:07 CLT" name="Surefire suite" finished-at="2025-05-12T20:48:49 CLT" duration-ms="42097">
+  <suite started-at="2025-05-13T23:03:56 CLT" name="Surefire suite" finished-at="2025-05-13T23:04:38 CLT" duration-ms="42375">
     <groups>
       <group name="regression">
-        <method signature="BarTests.aboutButtomTest()[pri:0, instance:automation.BarTests@1706a5c9]" name="aboutButtomTest" class="automation.BarTests"/>
-        <method signature="BarTests.logoutTest()[pri:0, instance:automation.BarTests@1706a5c9]" name="logoutTest" class="automation.BarTests"/>
-        <method signature="FooterTests.verifyingSocialMediaLinksTest()[pri:0, instance:automation.FooterTests@70e13fa]" name="verifyingSocialMediaLinksTest" class="automation.FooterTests"/>
-        <method signature="LoginTests.lockedUserTest()[pri:0, instance:automation.LoginTests@6ff415ad]" name="lockedUserTest" class="automation.LoginTests"/>
-        <method signature="LoginTests.verifyLoginPageTest()[pri:0, instance:automation.LoginTests@6ff415ad]" name="verifyLoginPageTest" class="automation.LoginTests"/>
-        <method signature="ProductsTests.backToProductsTest()[pri:0, instance:automation.ProductsTests@5432c277]" name="backToProductsTest" class="automation.ProductsTests"/>
-        <method signature="ProductsTests.productDetailTest()[pri:0, instance:automation.ProductsTests@5432c277]" name="productDetailTest" class="automation.ProductsTests"/>
-        <method signature="shoppingTests.loginSuccessTest()[pri:0, instance:automation.shoppingTests@4ca8dbfa]" name="loginSuccessTest" class="automation.shoppingTests"/>
+        <method signature="BarTests.aboutButtomTest()[pri:0, instance:automation.BarTests@38c2c309]" name="aboutButtomTest" class="automation.BarTests"/>
+        <method signature="BarTests.logoutTest()[pri:0, instance:automation.BarTests@38c2c309]" name="logoutTest" class="automation.BarTests"/>
+        <method signature="FooterTests.verifyingSocialMediaLinksTest()[pri:0, instance:automation.FooterTests@4ca8dbfa]" name="verifyingSocialMediaLinksTest" class="automation.FooterTests"/>
+        <method signature="LoginTests.lockedUserTest()[pri:0, instance:automation.LoginTests@7063686f]" name="lockedUserTest" class="automation.LoginTests"/>
+        <method signature="LoginTests.verifyLoginPageTest()[pri:0, instance:automation.LoginTests@7063686f]" name="verifyLoginPageTest" class="automation.LoginTests"/>
+        <method signature="shoppingTests.loginSuccessTest()[pri:0, instance:automation.shoppingTests@243f003c]" name="loginSuccessTest" class="automation.shoppingTests"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="BarTests.aboutButtomTest()[pri:0, instance:automation.BarTests@1706a5c9]" name="aboutButtomTest" class="automation.BarTests"/>
-        <method signature="LoginTests.lockedUserTest()[pri:0, instance:automation.LoginTests@6ff415ad]" name="lockedUserTest" class="automation.LoginTests"/>
-        <method signature="ProductsTests.backToProductsTest()[pri:0, instance:automation.ProductsTests@5432c277]" name="backToProductsTest" class="automation.ProductsTests"/>
-        <method signature="shoppingTests.loginSuccessTest()[pri:0, instance:automation.shoppingTests@4ca8dbfa]" name="loginSuccessTest" class="automation.shoppingTests"/>
+        <method signature="BarTests.aboutButtomTest()[pri:0, instance:automation.BarTests@38c2c309]" name="aboutButtomTest" class="automation.BarTests"/>
+        <method signature="LoginTests.lockedUserTest()[pri:0, instance:automation.LoginTests@7063686f]" name="lockedUserTest" class="automation.LoginTests"/>
+        <method signature="shoppingTests.loginSuccessTest()[pri:0, instance:automation.shoppingTests@243f003c]" name="loginSuccessTest" class="automation.shoppingTests"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2025-05-12T20:48:07 CLT" name="Surefire test" finished-at="2025-05-12T20:48:49 CLT" duration-ms="42097">
-      <class name="automation.ProductsTests">
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.ProductsTests@5432c277]" started-at="2025-05-12T20:48:35 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:38 CLT" duration-ms="2940" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- masterSetUp -->
-        <test-method signature="backToProductsTest()[pri:0, instance:automation.ProductsTests@5432c277]" started-at="2025-05-12T20:48:38 CLT" name="backToProductsTest" finished-at="2025-05-12T20:48:38 CLT" duration-ms="25" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //Button[text()="Back to products"]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e026cf17-0895-45f9-a053-7682b2de411e, findElement {value=//Button[text()="Back to products"], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13948, moz:profile: C:\Users\Backup\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e026cf17-0895-45f9-a053-7682b2de411e]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //Button[text()="Back to products"]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e026cf17-0895-45f9-a053-7682b2de411e, findElement {value=//Button[text()="Back to products"], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13948, moz:profile: C:\Users\Backup\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e026cf17-0895-45f9-a053-7682b2de411e
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at utilities.BasePage.find(BasePage.java:45)
-at pages.ProductPage.clickBackToProducts(ProductPage.java:40)
-at automation.ProductsTests.backToProductsTest(ProductsTests.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- backToProductsTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.ProductsTests@5432c277]" started-at="2025-05-12T20:48:39 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:40 CLT" duration-ms="999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.ProductsTests@5432c277]" started-at="2025-05-12T20:48:40 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:42 CLT" duration-ms="2915" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- masterSetUp -->
-        <test-method signature="productDetailTest()[pri:0, instance:automation.ProductsTests@5432c277]" started-at="2025-05-12T20:48:42 CLT" name="productDetailTest" finished-at="2025-05-12T20:48:43 CLT" duration-ms="38" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //Button[text()="Back to products"]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e356ae17-e582-4b6d-b9e5-b815f1dbb302, findElement {value=//Button[text()="Back to products"], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8576, moz:profile: C:\Users\Backup\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e356ae17-e582-4b6d-b9e5-b815f1dbb302]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //Button[text()="Back to products"]
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.31.0', revision: '1ef9f18787*'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [e356ae17-e582-4b6d-b9e5-b815f1dbb302, findElement {value=//Button[text()="Back to products"], using=xpath}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 138.0.1, moz:accessibilityChecks: false, moz:buildID: 20250430203103, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8576, moz:profile: C:\Users\Backup\AppData\Loc..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: e356ae17-e582-4b6d-b9e5-b815f1dbb302
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-at utilities.BasePage.find(BasePage.java:45)
-at pages.ProductPage.verifyPage(ProductPage.java:23)
-at automation.ProductsTests.productDetailTest(ProductsTests.java:29)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
-at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
-at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
-at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
-at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
-at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
-at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- productDetailTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.ProductsTests@5432c277]" started-at="2025-05-12T20:48:43 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:44 CLT" duration-ms="1036" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- masterTearDown -->
-      </class> <!-- automation.ProductsTests -->
+    <test started-at="2025-05-13T23:03:56 CLT" name="Surefire test" finished-at="2025-05-13T23:04:38 CLT" duration-ms="42375">
       <class name="automation.shoppingTests">
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.shoppingTests@4ca8dbfa]" started-at="2025-05-12T20:48:44 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:47 CLT" duration-ms="2863" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.shoppingTests@243f003c]" started-at="2025-05-13T23:04:30 CLT" name="masterSetUp" finished-at="2025-05-13T23:04:35 CLT" duration-ms="4924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.shoppingTests@4ca8dbfa]" started-at="2025-05-12T20:48:47 CLT" name="setUp" finished-at="2025-05-12T20:48:48 CLT" duration-ms="1596" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.shoppingTests@243f003c]" started-at="2025-05-13T23:04:35 CLT" name="setUp" finished-at="2025-05-13T23:04:37 CLT" duration-ms="2089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginSuccessTest()[pri:0, instance:automation.shoppingTests@4ca8dbfa]" started-at="2025-05-12T20:48:48 CLT" name="loginSuccessTest" finished-at="2025-05-12T20:48:48 CLT" duration-ms="49" status="PASS">
+        <test-method signature="loginSuccessTest()[pri:0, instance:automation.shoppingTests@243f003c]" started-at="2025-05-13T23:04:37 CLT" name="loginSuccessTest" finished-at="2025-05-13T23:04:37 CLT" duration-ms="96" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginSuccessTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.shoppingTests@4ca8dbfa]" started-at="2025-05-12T20:48:48 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:49 CLT" duration-ms="918" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.shoppingTests@243f003c]" started-at="2025-05-13T23:04:37 CLT" name="masterTearDown" finished-at="2025-05-13T23:04:38 CLT" duration-ms="1133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
       </class> <!-- automation.shoppingTests -->
       <class name="automation.LoginTests">
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:25 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:27 CLT" duration-ms="2817" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:16 CLT" name="masterSetUp" finished-at="2025-05-13T23:04:20 CLT" duration-ms="3731" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:27 CLT" name="setUp" finished-at="2025-05-12T20:48:29 CLT" duration-ms="1558" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:20 CLT" name="setUp" finished-at="2025-05-13T23:04:21 CLT" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="lockedUserTest()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:29 CLT" name="lockedUserTest" finished-at="2025-05-12T20:48:29 CLT" duration-ms="379" status="PASS">
+        <test-method signature="lockedUserTest()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:21 CLT" name="lockedUserTest" finished-at="2025-05-13T23:04:21 CLT" duration-ms="425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lockedUserTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:29 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:30 CLT" duration-ms="904" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:21 CLT" name="masterTearDown" finished-at="2025-05-13T23:04:22 CLT" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:30 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:33 CLT" duration-ms="2862" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:22 CLT" name="masterSetUp" finished-at="2025-05-13T23:04:27 CLT" duration-ms="5090" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:33 CLT" name="setUp" finished-at="2025-05-12T20:48:34 CLT" duration-ms="995" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:27 CLT" name="setUp" finished-at="2025-05-13T23:04:29 CLT" duration-ms="1452" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTest()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:34 CLT" name="verifyLoginPageTest" finished-at="2025-05-12T20:48:34 CLT" duration-ms="54" status="PASS">
+        <test-method signature="verifyLoginPageTest()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:29 CLT" name="verifyLoginPageTest" finished-at="2025-05-13T23:04:29 CLT" duration-ms="92" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.LoginTests@6ff415ad]" started-at="2025-05-12T20:48:34 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:35 CLT" duration-ms="1130" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.LoginTests@7063686f]" started-at="2025-05-13T23:04:29 CLT" name="masterTearDown" finished-at="2025-05-13T23:04:30 CLT" duration-ms="1457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
       </class> <!-- automation.LoginTests -->
       <class name="automation.FooterTests">
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.FooterTests@70e13fa]" started-at="2025-05-12T20:48:19 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:22 CLT" duration-ms="2857" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.FooterTests@4ca8dbfa]" started-at="2025-05-13T23:04:10 CLT" name="masterSetUp" finished-at="2025-05-13T23:04:13 CLT" duration-ms="3228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.FooterTests@70e13fa]" started-at="2025-05-12T20:48:22 CLT" name="setUp" finished-at="2025-05-12T20:48:24 CLT" duration-ms="1411" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.FooterTests@4ca8dbfa]" started-at="2025-05-13T23:04:13 CLT" name="setUp" finished-at="2025-05-13T23:04:15 CLT" duration-ms="1518" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyingSocialMediaLinksTest()[pri:0, instance:automation.FooterTests@70e13fa]" started-at="2025-05-12T20:48:24 CLT" name="verifyingSocialMediaLinksTest" finished-at="2025-05-12T20:48:24 CLT" duration-ms="65" status="PASS">
+        <test-method signature="verifyingSocialMediaLinksTest()[pri:0, instance:automation.FooterTests@4ca8dbfa]" started-at="2025-05-13T23:04:15 CLT" name="verifyingSocialMediaLinksTest" finished-at="2025-05-13T23:04:15 CLT" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyingSocialMediaLinksTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.FooterTests@70e13fa]" started-at="2025-05-12T20:48:24 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:25 CLT" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.FooterTests@4ca8dbfa]" started-at="2025-05-13T23:04:15 CLT" name="masterTearDown" finished-at="2025-05-13T23:04:16 CLT" duration-ms="962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
       </class> <!-- automation.FooterTests -->
       <class name="automation.BarTests">
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:07 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:11 CLT" duration-ms="3549" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:03:56 CLT" name="masterSetUp" finished-at="2025-05-13T23:04:00 CLT" duration-ms="4082" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:11 CLT" name="setUp" finished-at="2025-05-12T20:48:13 CLT" duration-ms="1850" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:00 CLT" name="setUp" finished-at="2025-05-13T23:04:02 CLT" duration-ms="2129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="aboutButtomTest()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:13 CLT" name="aboutButtomTest" finished-at="2025-05-12T20:48:13 CLT" duration-ms="82" status="PASS">
+        <test-method signature="aboutButtomTest()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:03 CLT" name="aboutButtomTest" finished-at="2025-05-13T23:04:03 CLT" duration-ms="86" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- aboutButtomTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:13 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:14 CLT" duration-ms="963" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:03 CLT" name="masterTearDown" finished-at="2025-05-13T23:04:04 CLT" duration-ms="1056" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->
-        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:14 CLT" name="masterSetUp" finished-at="2025-05-12T20:48:16 CLT" duration-ms="2826" status="PASS">
+        <test-method is-config="true" signature="masterSetUp()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:04 CLT" name="masterSetUp" finished-at="2025-05-13T23:04:07 CLT" duration-ms="3304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterSetUp -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:16 CLT" name="setUp" finished-at="2025-05-12T20:48:18 CLT" duration-ms="1713" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:07 CLT" name="setUp" finished-at="2025-05-13T23:04:09 CLT" duration-ms="1908" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logoutTest()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:18 CLT" name="logoutTest" finished-at="2025-05-12T20:48:18 CLT" duration-ms="307" status="PASS">
+        <test-method signature="logoutTest()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:09 CLT" name="logoutTest" finished-at="2025-05-13T23:04:09 CLT" duration-ms="334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logoutTest -->
-        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.BarTests@1706a5c9]" started-at="2025-05-12T20:48:18 CLT" name="masterTearDown" finished-at="2025-05-12T20:48:19 CLT" duration-ms="904" status="PASS">
+        <test-method is-config="true" signature="masterTearDown()[pri:0, instance:automation.BarTests@38c2c309]" started-at="2025-05-13T23:04:09 CLT" name="masterTearDown" finished-at="2025-05-13T23:04:10 CLT" duration-ms="992" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- masterTearDown -->

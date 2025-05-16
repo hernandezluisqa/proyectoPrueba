@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import utilities.BasePage;
 
 public class ProductPage extends BasePage {
-    private final By backToProductsButton = By.xpath("//Button[text()=\"Back to products\"]");
+    private final By backToProductsButton = By.xpath("//button[text()='Back to products']");
     private final By image = By.className("inventory_details_img");
     private final By price = By.className("inventory_details_price");
     private final By productName = By.className("inventory_details_name");
