@@ -1,0 +1,1 @@
+{"uuid":"4e5b5f67-62c8-42d7-b290-9265c04a65e4","name":"automation.EntelBarTests.setUp","children":["69929b1e-d9b4-4426-a1d5-6dc1f8526afa"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747506725396,"stop":1747506729159}],"afters":[],"start":1747506725396,"stop":1747506729159}

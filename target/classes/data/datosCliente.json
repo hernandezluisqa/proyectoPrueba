@@ -1,0 +1,11 @@
+{
+  "nombre" : "Juan Garcia",
+  "email" : "juangarcia@gmail.com",
+  "telefono" : "990142536",
+  "direccion" : {
+    "calleNumero": "Avenida Providencia 256, Providencia, Santiago, Región Metropolitana",
+    "dpto" : "2020",
+    "referencia" : "cerca del metro"
+  },
+  "rut" : "26489106k"
+}

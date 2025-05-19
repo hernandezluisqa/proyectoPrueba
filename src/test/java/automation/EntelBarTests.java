@@ -7,7 +7,6 @@ import pages.HomePage;
 import utilities.BaseTest;
 
 public class EntelBarTests extends BaseTest {
-
     private final HomePage homePage = new HomePage();
 
 
@@ -21,5 +20,6 @@ public class EntelBarTests extends BaseTest {
     public void openEquiposBarTest() {
         homePage.openEquiposMenu();
         homePage.clickEquiposButton();
+
     }
 }
