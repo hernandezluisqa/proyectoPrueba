@@ -1,5 +1,5 @@
-14:05:57.678 INFO  AUTOMATION - Suite Iniciada: Default Suite
-14:06:12.070 INFO  AUTOMATION - Comenzando el test: comprarProducto
-14:06:14.078 INFO  AUTOMATION - Test Fallido: comprarProducto
-14:06:14.480 INFO  AUTOMATION - Matando el padre
-14:06:15.721 INFO  AUTOMATION - Suite finalizada: Default Suite
+21:15:17.685 INFO  AUTOMATION - Suite Iniciada: Default Suite
+21:15:31.653 INFO  AUTOMATION - Comenzando el test: comprarProducto
+21:15:32.925 INFO  AUTOMATION - Test Fallido: comprarProducto
+21:15:33.321 INFO  AUTOMATION - Matando el padre
+21:15:35.271 INFO  AUTOMATION - Suite finalizada: Default Suite

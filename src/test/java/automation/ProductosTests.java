@@ -2,6 +2,8 @@ package automation;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import pages.CarroDeCompraPage;
+import pages.DatosDespachoPage;
 import pages.EquiposPage;
 import pages.HomePage;
 import pages.IdentificacionPage;
@@ -17,6 +19,9 @@ public class ProductosTests extends BaseTest {
     private final TelefonoPage telefonoPage = new TelefonoPage();
 
     private final IdentificacionPage identificacionPage = new IdentificacionPage();
+    private final DatosDespachoPage datosDespachoPage = new DatosDespachoPage();
+
+    private final CarroDeCompraPage carroDeCompraPage = new CarroDeCompraPage();
 
     @BeforeMethod
     public void setUp() {
@@ -27,10 +32,10 @@ public class ProductosTests extends BaseTest {
 
     @Test (groups = {smoke})
     public void buscarEquipoPorSKU() {
-        equiposPage.buscarPorSku(1);
+        equiposPage.buscarPorSku(0);
         equiposPage.abrirEquipoBuscado();
         telefonoPage.verifyPage();
-        telefonoPage.verifyPhone(1);
+        telefonoPage.verifyPhone(0);
     }
 
     @Test (groups = {smoke})
@@ -43,6 +48,12 @@ public class ProductosTests extends BaseTest {
         identificacionPage.waitPageToLoad();
         identificacionPage.verifyPage();
         identificacionPage.llenarFormularioDatosValidos();
+        OtherUtilities.sleep(5000);
+        carroDeCompraPage.waitPageToLoad();
+        carroDeCompraPage.clickContinuarButton();
+        datosDespachoPage.waitPageToLoad();
+        datosDespachoPage.llenarDatosDespacho();
+        datosDespachoPage.validarTituloCarrito();
     }
 
 }
