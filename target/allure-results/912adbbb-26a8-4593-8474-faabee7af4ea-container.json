@@ -1,0 +1,1 @@
+{"uuid":"912adbbb-26a8-4593-8474-faabee7af4ea","name":"automation.ProductosTests.setUp","children":["cdf6f928-f2de-4c75-833c-45c4f4d27774"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1747960627513,"stop":1747960637074}],"afters":[],"start":1747960627513,"stop":1747960637074}

@@ -1,9 +1,10 @@
-14:06:39.324 INFO  AUTOMATION - Suite Iniciada: Default Suite
-14:07:03.744 INFO  AUTOMATION - Comenzando el test: comprarProducto
-14:07:04.819 INFO  AUTOMATION - Esperando que la pagina EquiposPage cargue
-14:07:05.354 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina EquiposPage
-14:07:10.416 INFO  AUTOMATION - Esperando que la pagina IdentificacionPage cargue
-14:07:13.168 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina IdentificacionPage
-14:07:14.271 INFO  AUTOMATION - Test Exitoso: comprarProducto
-14:07:14.273 INFO  AUTOMATION - Matando el padre
-14:07:15.580 INFO  AUTOMATION - Suite finalizada: Default Suite
+21:17:32.258 INFO  AUTOMATION - Suite Iniciada: Default Suite
+21:17:46.768 INFO  AUTOMATION - Comenzando el test: comprarProducto
+21:17:48.385 INFO  AUTOMATION - Esperando que la pagina EquiposPage cargue
+21:17:48.955 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina EquiposPage
+21:17:56.899 INFO  AUTOMATION - Esperando que la pagina IdentificacionPage cargue
+21:17:57.110 INFO  AUTOMATION - Ha cargado satisfactoriamente la pagina IdentificacionPage
+21:18:03.383 INFO  AUTOMATION - Esperando que la pagina CarroDeCompraPage cargue
+21:18:04.633 INFO  AUTOMATION - Test Fallido: comprarProducto
+21:18:04.648 INFO  AUTOMATION - Test Fallido: comprarProducto
+21:18:04.676 INFO  AUTOMATION - Suite finalizada: Default Suite
