@@ -41,7 +41,7 @@ public class DatosDespachoPage extends BasePage {
         find(referenciaLocator).sendKeys(DatosC.datosCliente().getDireccion().getReferencia());
         waitElementVisible(dptOficCasaLocator, "Direccion Principal");
         find(dptOficCasaLocator).sendKeys(DatosC.datosCliente().getDireccion().getDpto());
-        waitElementClickable(continuarButtonLocator, "boton");
+        waitElementClickable(continuarButtonLocator, "boton continuar");
         find(continuarButtonLocator).click();
     }
 
